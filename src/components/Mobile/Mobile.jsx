@@ -15,7 +15,7 @@ const Mobile = ({ toggle }) => {
     >
       <ul>
         <li>
-          <Link to="/" className={pathname === "/" ? "active" : ""}>
+          <Link to="/Space-Tourism-Website" className={pathname === "/Space-Tourism-Website" ? "active" : ""}>
             <span>00</span> Home
           </Link>
         </li>

@@ -13,14 +13,14 @@ const NavBar = () => {
   return (
     <nav className="navbar-container">
       <div className="logo">
-        <Link to="/">
+        <Link to="/Space-Tourism-Website">
           <img src={Logo} alt="logo" />
         </Link>
       </div>
       <div className="navigation">
         <ul>
           <li>
-            <Link to="/" className={pathname === "/" ? "active" : ""}>
+            <Link to="/Space-Tourism-Website" className={pathname === "/Space-Tourism-Website" ? "active" : ""}>
               <span>00</span> Home
             </Link>
           </li>
