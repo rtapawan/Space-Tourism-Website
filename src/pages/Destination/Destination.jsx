@@ -25,7 +25,7 @@ const Destination = () => {
           <motion.img
             whileInView={{ rotate: [0, 360] }}
             transition={{ ease: "linear", duration: 10, repeat: Infinity }}
-            src={dataDestination.images.webp}
+            src={process.env.PUBLIC_URL + dataDestination.images.webp}
             alt={dataDestination.name}
           />
         </motion.div>

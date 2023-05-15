@@ -54,7 +54,7 @@ const Crew = () => {
               initial="hidden"
               animate={isSelected.name === dataCrew.name ? "show" : "hidden"}
               exit="hidden"
-              src={dataCrew.images.webp}
+              src={process.env.PUBLIC_URL + dataCrew.images.webp}
               alt={dataCrew.name}
             />
           </AnimatePresence>

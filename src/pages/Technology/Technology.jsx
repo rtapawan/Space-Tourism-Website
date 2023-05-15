@@ -52,11 +52,11 @@ const Technology = () => {
           <picture>
             <source
               media="(max-width: 430px)"
-              srcSet={techData.images.landscape}
+              srcSet={process.env.PUBLIC_URL + techData.images.landscape}
             />
             <source
               media="(min-width: 768px) and (max-width: 1180px)"
-              srcSet={techData.images.landscape}
+              srcSet={process.env.PUBLIC_URL + techData.images.landscape}
             />
             <AnimatePresence mode="wait">
               <motion.img
@@ -65,7 +65,7 @@ const Technology = () => {
                 initial="hidden"
                 animate={isSelected.name === techData.name ? "show" : "hidden"}
                 exit="hidden"
-                src={techData.images.portrait}
+                src={process.env.PUBLIC_URL + techData.images.portrait}
                 alt={techData.name}
               />
             </AnimatePresence>
