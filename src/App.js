@@ -7,10 +7,16 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/Space-Tourism-Website" element={<Home />} />
-        <Route path="/destination" element={<Destination />} />
-        <Route path="/crew" element={<Crew />} />
-        <Route path="/technology" element={<Technology />} />
+        <Route path="/Space-Tourism-Website/" element={<Home />} />
+        <Route
+          path="/Space-Tourism-Website/destination"
+          element={<Destination />}
+        />
+        <Route path="/Space-Tourism-Website/crew" element={<Crew />} />
+        <Route
+          path="/Space-Tourism-Website/technology"
+          element={<Technology />}
+        />
       </Routes>
     </Router>
   );

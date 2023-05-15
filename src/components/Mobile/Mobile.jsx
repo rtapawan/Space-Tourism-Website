@@ -15,27 +15,39 @@ const Mobile = ({ toggle }) => {
     >
       <ul>
         <li>
-          <Link to="/Space-Tourism-Website" className={pathname === "/Space-Tourism-Website" ? "active" : ""}>
+          <Link
+            to="/Space-Tourism-Website/"
+            className={pathname === "/Space-Tourism-Website/" ? "active" : ""}
+          >
             <span>00</span> Home
           </Link>
         </li>
         <li>
           <Link
-            to="/destination"
-            className={pathname === "/destination" ? "active" : ""}
+            to="/Space-Tourism-Website/destination"
+            className={
+              pathname === "/Space-Tourism-Website/destination" ? "active" : ""
+            }
           >
             <span>01</span> Destination
           </Link>
         </li>
         <li>
-          <Link to="/crew" className={pathname === "/crew" ? "active" : ""}>
+          <Link
+            to="/Space-Tourism-Website/crew"
+            className={
+              pathname === "/Space-Tourism-Website/crew" ? "active" : ""
+            }
+          >
             <span>02</span> Crew
           </Link>
         </li>
         <li>
           <Link
-            to="/technology"
-            className={pathname === "/technology" ? "active" : ""}
+            to="/Space-Tourism-Website/technology"
+            className={
+              pathname === "/Space-Tourism-Website/technology" ? "active" : ""
+            }
           >
             <span>03</span> Technology
           </Link>
