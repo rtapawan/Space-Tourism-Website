@@ -21,7 +21,7 @@ const Home = () => {
           </p>
         </motion.div>
         <div className="home-explore">
-          <Link to="/destination">
+          <Link to="/Space-Tourism-Website/destination">
             <motion.div
               whileInView={{ rotate: [180, 0], scale: [0, 1] }}
               transition={{
